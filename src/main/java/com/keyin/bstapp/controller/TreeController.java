@@ -2,7 +2,7 @@ package com.keyin.bstapp.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.keyin.bstapp.entity.TreeEntity;
+
 import com.keyin.bstapp.service.TreeService;
 import com.keyin.bstapp.trees.BinaryNode;
 import org.springframework.beans.factory.annotation.Autowired;
