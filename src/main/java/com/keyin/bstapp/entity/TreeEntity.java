@@ -5,7 +5,7 @@ import com.keyin.bstapp.trees.BinaryNodeConverter;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "trees")
+@Table(name = "com/keyin/bstapp/trees")
 public class TreeEntity {
 
     @Id
