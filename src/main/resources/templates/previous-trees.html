@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Previous Trees</title>
+</head>
+<body>
+<h1>Previous Trees</h1>
+<table border="1">
+    <tr>
+        <th>Input Numbers</th>
+        <th>Binary Search Tree</th>
+    </tr>
+    <tr th:each="tree : ${previousTrees}">
+        <td th:text="${tree.numbers}"></td>
+        <td th:text="${tree.rootNode}"></td>
+    </tr>
+</table>
+<a href="/enter-numbers">Enter More Numbers</a>
+</body>
+</html>
