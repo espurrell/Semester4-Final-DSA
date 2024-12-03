@@ -1,8 +1,8 @@
 package com.keyin.bstapp;
 
-import com.keyin.bstapp.BinarySearchTree.BinarySearchTree;
+import com.keyin.bstapp.BinarySearchTree;
 import com.keyin.bstapp.BinarySearchTree.BinarySearchTreeRepository;
-import com.keyin.bstapp.BinarySearchTree.BinarySearchTreeService;
+import com.keyin.bstapp.
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
